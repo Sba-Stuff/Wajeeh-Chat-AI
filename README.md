@@ -37,7 +37,7 @@ Download, Modify the LLM server you want to use (I used lm studio with LFM2), ru
 
 ## License
 
-This project is licensed under the MIT License - see https://github.com/yourusername/chatai-interfaces/releases/blob/main/LICENSE for details.
+This project is licensed under the MIT License.
 
 ## Contact
 For any questions or feedback, please contact:
