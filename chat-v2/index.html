@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wajeeh AI | Neural Interface</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Exo+2:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cyber-grid"></div>
+    <div class="portal-glow"></div>
+    <div class="particles-container"></div>
+    
+    <div class="terminal-container">
+        <!-- Holographic Header -->
+        <div class="terminal-header">
+            <div class="hologram-effect">
+                <div class="neural-pulse"></div>
+                <h1 class="cyber-title">
+                    <span class="glitch" data-text="WAJEEH-AI">WAJEEH-AI</span>
+                    <span class="neural-signal">
+                        <i class="fas fa-satellite-dish"></i>
+                        <span class="signal-bars">
+                            <span></span><span></span><span></span><span></span>
+                        </span>
+                    </span>
+                </h1>
+                <div class="subtitle">
+                    <span class="pulsing-text">NEURAL INTERFACE ACTIVE</span>
+                    <span class="connection-status">
+                        <i class="fas fa-circle"></i> LOCAL CORE ONLINE
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chat Display -->
+        <div class="terminal-display" id="chatBox">
+            <div class="system-message">
+                <div class="typewriter">
+                    <span class="prompt">SYSTEM></span> Initializing quantum chat interface...
+                </div>
+                <div class="typewriter delay-1">
+                    <span class="prompt">CORE></span> Wajeeh-AI neural network online. Ready for input.
+                </div>
+                <div class="typewriter delay-2">
+                    <span class="prompt">STATUS></span> Connection established. Awaiting transmission...
+                </div>
+            </div>
+        </div>
+
+        <!-- Input Interface -->
+        <div class="terminal-input">
+            <div class="input-wrapper">
+                <div class="input-glow"></div>
+                <div class="prompt-display">
+                    <span class="blinking-cursor">></span>
+                    <span class="path">user@neural:~$</span>
+                </div>
+                <form id="chatForm" class="cyber-form">
+                    <input type="text" id="prompt" placeholder="TRANSMIT MESSAGE..." autocomplete="off" required>
+                    <button type="submit" class="cyber-button">
+                        <span class="btn-text">SEND</span>
+                        <div class="btn-glow"></div>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="terminal-footer">
+                <div class="status-indicators">
+                    <div class="indicator">
+                        <div class="led green"></div>
+                        <!--<span>NEURAL LINK</span>-->
+                    </div>
+                    <div class="indicator">
+                        <div class="led blue pulse"></div>
+                        <!--<span>QUANTUM PROCESSING</span>-->
+                    </div>
+                    <div class="indicator">
+                        <div class="led cyan"></div>
+                        <!--<span>DATA STREAM</span>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sci-fi Sound Effects -->
+    <audio id="messageSound" preload="auto">
+        <source src="https://assets.mixkit.co/active_storage/sfx/286/286-preview.mp3" type="audio/mpeg">
+    </audio>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
